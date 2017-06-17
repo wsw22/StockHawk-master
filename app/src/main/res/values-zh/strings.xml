@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">股票雄鹰</string>
+    <string name="dialog_add">添加</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="action_change_units">切换显示格式</string>
+    <string name="dialog_hint">股票代码（例如 GOOG）</string>
+    <string name="dialog_title">添加股票</string>
+    <string name="error_no_network">网络未连接!等待网络连接以下载数据。</string>
+    <string name="error_no_stocks">未添加股票!请点击添加股票按钮以添加股票。</string>
+    <string name="toast_no_connectivity">当连接网络后更新。</string>
+    <string name="toast_stock_added_no_connectivity">股票已添加,联网后加载数据。</string>
+    <string name="content_description_add_stock">添加股票</string>
+</resources>
