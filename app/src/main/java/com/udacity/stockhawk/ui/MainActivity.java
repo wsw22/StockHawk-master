@@ -49,7 +49,6 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public void onClick(String symbol) {
-        Timber.d("Symbol clicked: %s", symbol);
         Intent intent = new Intent(this, DetailActivity.class);
         Uri uri = Contract.Quote.makeUriForStock(symbol);
         intent.setData(uri);

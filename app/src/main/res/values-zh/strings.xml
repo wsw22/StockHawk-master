@@ -11,4 +11,6 @@
     <string name="toast_no_connectivity">当连接网络后更新。</string>
     <string name="toast_stock_added_no_connectivity">股票已添加,联网后加载数据。</string>
     <string name="content_description_add_stock">添加股票</string>
+    <string name="no_stock_data">没有股票数据</string>
+    <string name="widget_stock_list_title">股票列表</string>
 </resources>
