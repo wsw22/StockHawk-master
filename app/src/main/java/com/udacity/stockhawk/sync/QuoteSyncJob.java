@@ -64,6 +64,10 @@ public final class QuoteSyncJob {
                 String symbol = iterator.next();
 
                 Stock stock = quotes.get(symbol);
+                if (stock == null) {
+                    PrefUtils.removeStock(context, symbol);
+                    continue;
+                }
                 StockQuote quote = stock.getQuote();
 
                 if (quote != null
